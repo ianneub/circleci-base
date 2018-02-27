@@ -11,7 +11,9 @@ RUN apk --update add \
       curl \
       bash \
       make \
-      docker && \
+      docker \
+      git \
+      openssh-client && \
       pip install --upgrade awscli s3cmd && \
       mkdir /root/.aws
 
