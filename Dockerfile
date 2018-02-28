@@ -5,6 +5,7 @@ RUN mkdir ~/repo
 RUN apk --update add \ 
       less \
       groff \
+      perl \
       python \
       py-pip \
       jq \
