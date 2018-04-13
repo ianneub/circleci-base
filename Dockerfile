@@ -8,6 +8,7 @@ RUN apk --update add \
       perl \
       python \
       py-pip \
+      ruby \
       jq \
       curl \
       bash \
