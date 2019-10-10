@@ -1,12 +1,17 @@
-FROM alpine:3.7
+FROM alpine:3.10
 MAINTAINER Ian Neubert <ian@ianneubert.com>
 
 RUN mkdir ~/repo
 RUN apk --update add \ 
       less \
       groff \
+      gcc \
+      musl-dev \
+      libffi-dev \
+      openssl-dev \
       perl \
-      python \
+      python2 \
+      python2-dev \
       py-pip \
       ruby \
       jq \
