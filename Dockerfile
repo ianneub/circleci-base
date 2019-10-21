@@ -21,7 +21,7 @@ RUN apk --update add \
       docker \
       git \
       openssh-client && \
-      pip install --upgrade awscli s3cmd docker-compose && \
+      pip install --upgrade requests awscli s3cmd docker-compose && \
       mkdir /root/.aws
 
 WORKDIR ~/repo
